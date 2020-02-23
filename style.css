@@ -1,0 +1,23 @@
+#paragraph {
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+
+
+.img {
+    float: left;
+    margin: 4px;
+    padding: 7px;
+}
+
+.head {
+    background-color:#ffffff;
+    font-family: "Georgia", 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+}
+
+#left {
+    float: left;
+}
+
