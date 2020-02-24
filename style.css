@@ -29,6 +29,7 @@
 #teal {
     background-color: teal;
     padding: 10px;
+    height: 60px;
 }
 
 .container {
@@ -37,6 +38,7 @@
 
 .bg {
     background-color:lightgray;
+    padding-bottom: 0px;
 }
 
 #space {
@@ -62,6 +64,12 @@
  #float {
      padding-left: 20px;
      margin: 100px;
+    
  }
 
+ .size {
+     height: 100px;
+     width: 100px;
+
+ }
 
