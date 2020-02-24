@@ -12,12 +12,56 @@
 }
 
 .head {
-    background-color:#ffffff;
     font-family: "Georgia", 'Times New Roman', Times, serif;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
+    float: left;
 }
 
 #left {
     float: left;
+    padding-right: 8px;
 }
+
+.white {
+    background-color: white;
+}
+
+#teal {
+    background-color: teal;
+    padding: 10px;
+}
+
+.container {
+    background-color: white;
+}
+
+.bg {
+    background-color:lightgray;
+}
+
+#space {
+    padding-top: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+
+ .container3 {
+     padding: 20px;
+     margin: 10px;
+     
+ }
+
+ #float {
+     padding-left: 20px;
+     margin: 100px;
+ }
+
 
