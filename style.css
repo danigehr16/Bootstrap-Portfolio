@@ -1,3 +1,28 @@
+#navLinks {
+    float: right;
+    margin: 50px;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background:lightblue;
+}
+#blue {
+    border-color: lightcyan;
+    float: left;
+}
+#green {
+    background-color: lightgreen;
+    border-color: lightseagreen;
+    float: right;
+}
+#purple {
+    background-color: plum;
+    border-color: rebeccapurple;
+    float: right;
+}
+
 #paragraph {
     font-family: "Arial", Arial, Helvetica, sans-serif;
     font-size: 18px;
