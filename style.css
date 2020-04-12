@@ -2,38 +2,122 @@
     float: right;
     margin: 50px;
 }
+.nav-link{
+    color: whitesmoke;
+}
+#nav {
+    background: none;
+    padding-bottom: 0px;
+    
+}
+#nameSmall {
+    font-family: 'Righteous', cursive;
+    float: right;
+    color: whitesmoke;
+    font-size: 30px;
+    
+}
+#webD {
+    font-size: 15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 40px;
+    position: sticky;
+    color: whitesmoke;
+   
+}
+#divWeb {
+    float: left;
+    margin-right: 40px;
+    position: sticky;
+    
+}
+#webDev {
+    margin-bottom: 30px;
+    position: sticky;
+}
+#imgContain {
+    float: left;
+    margin-left: 170px;
+}
+#hello {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 120px;
+    margin-left: 50px;
+    color: whitesmoke;
+}
+#me {
+    font-family: 'Special Elite', cursive;
+    margin-left: 80px;
+    font-size: 40px;
+    color: whitesmoke;
+}
 .circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
     background:lightblue;
+}
+#helloAbout {
+    margin-bottom: 0px;
+    margin-top: 150px;
 }
 #blue {
     border-color: lightcyan;
     float: left;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+#resume {
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 20px;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+}
+#work {
+    padding-top: 60px;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+}
+#skills {
+    padding-top: 60px;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
 }
 #green {
     background-color: lightgreen;
     border-color: lightseagreen;
     float: right;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 30px;
 }
 #purple {
     background-color: plum;
     border-color: rebeccapurple;
     float: right;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 30px;
 }
 
 #paragraph {
-    font-family: "Arial", Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    color: whitesmoke;
+    background-color: black;
+    opacity: 50%;
     
+}
+.col-sm-8 {
+    margin-top: 40px;
 }
 
 
-.img {
-    float: left;
-    margin: 4px;
-    padding: 7px;
+#img {
+    border-radius: 30%;
+    width: 400px;
+    height: 500px;
 }
 
 .head {
