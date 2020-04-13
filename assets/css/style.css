@@ -27,6 +27,7 @@
     font-family: 'Lobster', cursive;
    
 }
+
 #divWeb {
     float: left;
     margin-right: 40px;
@@ -104,7 +105,7 @@
     font-size: 30px;
 }
 
-#paragraph {
+.paragraph {
     color: whitesmoke;
     background-color: black;
     opacity: 50%;
@@ -178,4 +179,123 @@
      background-color: teal;
      font-family: "Arial", Arial, Helvetica, sans-serif;
  }
+ #portfolio {
+     font-family: 'Homemade Apple', cursive;
+     color: whitesmoke;
+     font-size: 100px;
+     padding-left: 150px;
+     padding-top: 40px;
+     text-align: center;
+}
+#portfolioText {
+    padding: 20px;
+    text-align: center;
+   
+}
+#portTitleCol {
+    float: left;
+}
+#portfolioCol {
+    float: right;
+    padding-right: 120px;
+    margin-top: 80px;
+    
+}
+#allProjects{
+    padding-top: 90px;
+}
+.card {
+    background: black;
+}
+
+#games {
+    float: left;
+    border: whitesmoke solid;
+    margin: 5px;
+   padding: 30px;
+   width: 30px;
+   background-color: black;
+  
+}
+#gameText {
+    color: whitesmoke;
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+    
+}
+#websiteText {
+    color: whitesmoke;
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+    
+}
+#groupText {
+    color: whitesmoke;
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+   
+}
+#websites {
+     float: right;
+     border: white solid;
+     margin: 5px;
+     align-content: center;
+     padding: 30px;
+     background-color: black;
+     
+     
+}
+#projects {
+    float: right;
+    border: whitesmoke solid;
+    margin:  5px;
+    align-content: center;
+    padding: 30px;
+    background-color: black;  
+}
+.projectText{
+    background-color: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 200px 10px 200px;
+    opacity: 70%;
+   
+    
+    
+    
+    
+}
+.Div{
+    position: relative;
+    text-align: center;
+    color:black;
+}
+
+#mystery{
+    color: whitesmoke;
+    background-color: lightgray;
+}
+
+#gif {
+    color: whitesmoke;
+    background-color: lightgray;
+}
+
+#train{
+    color: whitesmoke;
+    background-color: lightgray;
+}
+
+#project{
+    color: whitesmoke;
+    background-color: lightgray;
+}
+.col-md-8 {
+    border: whitesmoke solid;
+    background: black;
+}
+
+
 

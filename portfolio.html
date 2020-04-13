@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap Portfolio</title>
+    <title>Danielle Gehr Portfolio</title>
 </head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Righteous|Special+Elite&display=swap"
-        rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Lobster|Righteous|Special+Elite&display=swap"
+    rel="stylesheet">
+
 
 <body background="assets/images/lights.jpg">
     <nav id="nav" class="navbar sticky-top">
@@ -44,56 +45,108 @@
     <br>
     <br>
     <br>
+    <div class="row">
+        <div id="portTitleCol" class="col-md-6">
+            <p id='portfolio'>My Portfolio</p>
+        </div>
 
-    <!-- <I couldn't get how to make the photos take up the whole box and how to add the teal bar across the photos> -->
+        <div id="portfolioCol" class="col-md-6">
+            <p id="portfolioText" class="paragraph">Aenean sodales elementum lorem nec euismod. Proin fringilla diam
+                risus, a maximus urna finibus et. Etiam faucibus elit ac sem iaculis vestibulum a non ligula. Sed massa
+                purus, suscipit a neque a, pharetra auctor lectus. Proin nec mollis purus, in facilisis lectus. Donec et
+                magna porttitor, convallis tortor ut, porttitor turpis. Sed ligula felis, congue a consectetur id,
+                euismod quis libero. Aenean quis cursus erat, ac varius velit. Etiam ut quam mollis, bibendum orci quis,
+                elementum nunc. Ut augue sem, maximus nec lacinia et, accumsan et leo. Donec finibus ultricies elit, id
+                venenatis nunc ultricies ac. Etiam vestibulum, lorem ac tincidunt efficitur, odio diam tristique ex, in
+                pretium augue est at ligula.</p>
+        </div>
+    </div>
 
-    <div class="container" class="white">
-        <p>
-            <h2 id="port" class="font">Portfolio</h2>
-        </p>
 
-        <div id="change" class="row row-cols-1 row-cols-md-2">
-            <div class="col mb-4">
-                <div class="card">
-                    <img class="size" src="IMG_3218 copy.jpeg" class="card-img-top" alt="responsive image">
-                    <div class="card-body">
-                        <h5 class="card-title">Word Guess</h5>
-                    </div>
+    <div id="allProjects" class="row">
+        <div class="col-sm-1"></div>
+        <div id="games" class="col-sm-3">
+            <div class="card text-center">
+                <div class="card-header">
+                    <p id="gameText">Games</p>
                 </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card">
-                    <img class="size" src="IMG_3218 copy.jpeg" class="card-img-top" alt="responsive image">
-                    <div class="card-body">
-                        <h5 class="card-title">RPG Game</h5>
-                    </div>
+                <br>
+                <br>
+                <br>
+                <div class="Div">
+                    <img id="trivaImage" src="assets/images/triva.png" height="350px" width="350px">
+                    <div class="projectText">Volleyball Triva</div>
                 </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card">
-                    <img class="size" src="IMG_3218 copy.jpeg" class="card-img-top" alt="responsive image">
-                    <div class="card-body">
-                        <h5 class="card-title">Trivia Game</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card">
-                    <img class="size" src="IMG_3218 copy.jpeg" class="card-img-top" alt="responsive image">
-                    <div class="card-body">
-                        <h5 class="card-title">Info Widget</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card">
-                    <img class="size" src="IMG_3218 copy.jpeg" class="card-img-top" alt="responsive image">
-                    <div class="card-body">
-                        <h5 class="card-title">Rock Paper Scissors</h5>
-                    </div>
+                <br>
+                <br>
+                <br>
+
+                <div class="Div">
+                    <img id="mysteryImage" src="assets/images/scooby.png" height="350px" width="350px">
+                    <div class="projectText"> Mystery Solver</div>
                 </div>
             </div>
         </div>
+
+        <div id="websites" class="col-sm-3">
+            <div class="card text-center">
+                <div class="card-header">
+                    <p id="websiteText">Websites</p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="Div">
+                    <img class="gifImage" src="assets/images/gif.png" height="350px" width="350px">
+                    <p class="projectText">Gify Site</p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="Div">
+                    <img id="trainImage" src="assets/images/train.png" height="350px" width="350px">
+                    <p class="projectText">Train Scheduler</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="col-sm-3">
+            <div class="card text-center">
+                <div class="card-header">
+                    <p id="groupText">Group Projects</p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="Div">
+                    <img id="projectImage" src="assets/images/wipe.png" height="350px" width="350px">
+                    <p class="projectText">Project 1</p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8">
+            <div class="card text-center">
+                <div class="card-header">
+                    <p id="websiteText">In Progress</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2"></div>
     </div>
 
 </body>
