@@ -24,12 +24,13 @@
     padding-left: 40px;
     position: sticky;
     color: whitesmoke;
+    font-family: 'Lobster', cursive;
    
 }
 #divWeb {
     float: left;
     margin-right: 40px;
-    position: sticky;
+    position: fixed;
     
 }
 #webDev {
@@ -135,43 +136,19 @@
     background-color: white;
 }
 
-#teal {
-    background-color: teal;
-    padding: 10px;
-    height: 60px;
-    font-family: "Georgia", 'Times New Roman', Times, serif;
-}
 
-
-.bg {
-    background-color:darkgray;
-    padding-bottom: 0px;
-}
 
 #space {
     padding-top: 20px;
     margin-bottom: 30px;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
- }
-
- .container3 {
-     padding: 20px;
-     margin: 10px;
-     
- }
-
  #float {
      padding-left: 20px;
-     margin: 100px;
+     margin-left: 100px;
+     background-color: black;
+     opacity: 40px;
+     
     
  }
 
@@ -189,19 +166,16 @@
 
  .font {
     font-family: "Georgia", 'Times New Roman', Times, serif;
-    color: teal
+    color: whitesmoke;
+ }
+ .time{
+     color: whitesmoke;
+ }
+ #emailHelp{
+     color: whitesmoke;
  }
  #bgbutton {
      background-color: teal;
      font-family: "Arial", Arial, Helvetica, sans-serif;
- }
-
- .time {
-    font-family: "Arial", Arial, Helvetica, sans-serif;
- }
-
- #change {
-     margin-top: 8px;
-     background-color: white;
  }
 
