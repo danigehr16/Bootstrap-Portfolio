@@ -110,11 +110,13 @@
     color: whitesmoke;
     background-color: black;
     opacity: 50%;
+    font-family: 'Fredoka One', cursive;
     
 }
 .col-sm-8 {
     margin-top: 40px;
 }
+
 
 
 #img {
@@ -150,15 +152,12 @@
      margin-left: 100px;
      background-color: black;
      opacity: 40px;
-     
-    
- }
+     align-items: center;
+}
 
  .size {
      height: 400px;
      width: 300px;
-    
-
  }
 
  #port {
@@ -207,6 +206,8 @@
 }
 .card {
     background: black;
+    width: 50px;
+    border-radius: 30%;
 }
 
 #games {
@@ -263,11 +264,7 @@
     padding: 10px 200px 10px 200px;
     opacity: 70%;
     color:black;
-   
-    
-    
-    
-    
+    font-family: 'Fredoka One', cursive;
 }
 .Div{
     position: relative;
@@ -298,6 +295,11 @@
     border: whitesmoke solid;
     background: black;
 }
+.footer {
+    color: whitesmoke;
+}
+
+
 
 
 
