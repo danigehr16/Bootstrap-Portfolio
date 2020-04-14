@@ -118,7 +118,6 @@
 }
 
 
-
 #img {
     border-radius: 30%;
     width: 400px;
@@ -153,11 +152,16 @@
      background-color: black;
      opacity: 40px;
      align-items: center;
+     
+     
+    
 }
 
  .size {
      height: 400px;
      width: 300px;
+    
+
  }
 
  #port {
@@ -206,8 +210,6 @@
 }
 .card {
     background: black;
-    width: 50px;
-    border-radius: 30%;
 }
 
 #games {
