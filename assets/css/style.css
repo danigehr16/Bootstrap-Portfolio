@@ -359,25 +359,29 @@
     background: #bb0000;
     color: white;
     float: right;
-  }
+}
 
   .fa-facebook {
     background: #3B5998;
     color: white;
     float: right;
     
-  }
+}
   .fa-linkedin {
       background: #3B5998;
       color: white;
       float: right;
-  }
+}
   #socialMedia {
     padding-right: 20px;
     padding-top: none;
     margin-bottom: 10px;
-    padding-bottom: 20px;
-  }
+    padding-bottom: 20px ;
+}
+
+
+
+
 
 
 

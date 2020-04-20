@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link
         href="https://fonts.googleapis.com/css?family=Fredoka+One|Homemade+Apple|Lobster|Righteous|Special+Elite&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/77e0be3589.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mediaIndex.css">
     <title>Danielle Gehr</title>
 </head>
 
 
 
-<body background="assets/images/lights.jpg">
+<body id="body"background="assets/images/lights.jpg">
     <nav id="nav" class="navbar sticky-top">
         <a id="nameSmall" class="navbar-brand" href="index.html">Danielle Gehr <br></a>
 
@@ -48,9 +49,9 @@
     <br>
     <br>
     <div id="imgContain" class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <img id="img" src="assets/images/IMG_3218 copy.jpeg" class="img-fluid" alt="Responsive image">
+        <div id="aRow"class="row">
+            <div id="imgDiv" class="col-sm-6">
+                <img id="img" src="assets/images/IMG_3218 copy.jpeg"  alt="Responsive image">
             </div>
             <div id="helloAbout" class="col-sm-6">
                 <p id="hello">Hello,</p>
@@ -59,10 +60,10 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6"></div>
-            <div class="col-sm-6">
+
+        <div id="circleRow" class="row">
+            <!-- <div id="empty"class="col-sm-6"></div> -->
+            <div id="circleInfo" class="col-sm-12">
                 <div id="blue" class="circle">
                     <div id="resume">
                         My resume
@@ -83,36 +84,45 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-8">
-                <div>
-                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta iaculis
-                        dolor a hendrerit.
-                        Proin vestibulum laoreet vestibulum. Duis convallis finibus augue, id auctor orci interdum sed.
-                        Sed ullamcorper lacus ut sem aliquet, eget pulvinar mauris molestie. Fusce ultrices blandit
-                        aliquet. Nam venenatis lorem sit amet velit euismod, at sollicitudin velit posuere. Vivamus
-                        dapibus lobortis purus, eu pretium erat commodo sed. Proin sodales bibendum tempus. Curabitur
-                        scelerisque urna tellus, sed ultricies dui porttitor in. Suspendisse suscipit elit ac lacinia
-                        volutpat. Vestibulum vel risus at risus aliquet maximus in eget justo. Nunc congue purus nec ex
-                        tempor convallis. Donec vitae mollis sem. Sed posuere justo quis enim venenatis condimentum.
+            <!-- <div class="col-sm-4"></div> -->
+            <div id="paragraphWDiv" class="col-sm-12">
+                <div id=ParaDiv>
+                    <p class="paragraph">
+                        A bright, younge, enthusiastic, driven are just a few adjatives to
+                    desicribeDanielle Gehr. She lives in Lancaster Pennsylvania with her family. She is the oldest of
+                    five
+                    siblings. She currently
+                    works as a medical sales represenative with her father. Along with her full time job, she also works
+                    part time for the YMCA as a lifeguard and swim instructor. She runs and coaches KineticNRG
+                    Volleyball Club along side her father. She wants to continue to inspire younge athletes through her
+                    passion of volleyball. Danielle does work hard, but she has intrests outside of work. She loves to
+                    experience other cultures. Experienceing another culture can really help a person understand a point
+                    of view of someone different. Traveling is not the only thing of intrest, spending time with family
+                    and friends is really important to Danielle. Other activities that Danielle does in her spare time
+                    is read to expand her knowledge and for pure enjoyment, making creative crafts, watching different
+                    shows on netflix or other channels/streaming services and working out at the gym. Taking care of her
+                    mind, body, and spirit is very important to Danielle. She tries to get to the gym at least five
+                    times a week and have a healthy diet. The types of exercises she enjoys is participating at a
+                    crossfit gym. She recently joined a gym that will allow her to pursue her fitness intrest in boxing,
+                    kickboxing, and self-defense. Her interest in physical fitness started at a younge age when she
+                    looked up to her father teaching health and physical education at her elementry school. She decided
+                    to pursue a physical education degree at Maryville College, while she did not continue to pursue the
+                    license to teach she has a Bachlores in phyiscal education. While at Maryville College she played
+                    volleyball. While her 4 years at Maryville College she was a lifeguard, student ambassador, student
+                    intramural coordinator, in the student council, and president of athletes with a change club.
 
-                        Morbi rhoncus, ex a luctus placerat, quam sem facilisis quam, ac finibus diam tellus et nunc.
-                        Nam efficitur libero ex, id mattis leo commodo id. Sed egestas auctor turpis id iaculis. Nulla
-                        ullamcorper aliquam odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                        posuere cubilia Curae; In hac habitasse platea dictumst. Nam magna diam, egestas nec urna
-                        molestie, vehicula commodo odio. Fusce quis justo dui. Sed efficitur a risus non pretium. Fusce
-                        commodo tellus nec tortor finibus rhoncus.</p>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-12">
+        <div id="footer"class="col-md-12">
             <footer class="footer text-center push">
                 <div class="container">
                     <div class="icons">
@@ -125,7 +135,7 @@
                             <i href="#" class="fab fa-youtube fab-xs"></i>
                         </div>
                     </div>
-                    <p><a href="https://danigehr16.github.io/">About Danielle Gehr</a> | <a
+                    <p id="bottom"><a href="https://danigehr16.github.io/">About Danielle Gehr</a> | <a
                             href="https://github.com/danigehr16?tab=repositories">GitHub Repo</a>
                         <br>Danielle Gehr &copy; 2020 -
                         <script>
